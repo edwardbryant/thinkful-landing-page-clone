@@ -1,4 +1,18 @@
 
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+    }
+
+.content {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
 /* Navigation Section */
 
 .top-navigation {
@@ -6,7 +20,40 @@
     }
 
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
-    margin: 0 auto;
+    }
+
+.top-navigation .logo {
+    margin-top: 14px;
+    }
+
+.top-navigation .links {
+    color: #838994;
+    float: right;
+    margin-top: 1.6em;
+    }    
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.2em;
+    }        
+
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 600;
+    }
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+    }    
+
+/* Introduction */
+
+.introduction {
+    background-image: url('../images/background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
     }
