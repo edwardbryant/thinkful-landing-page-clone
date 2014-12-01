@@ -99,7 +99,6 @@ button {
 .cases {
     color: #000;
     text-align: center;
-    overflow: auto;
     }
 .cases h2 {
     font-size: 2.8em;
@@ -110,10 +109,11 @@ button {
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
     }
-
+.devices h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 0.4em;    
+    margin-bottom: 0.4em;    
+    }
 
