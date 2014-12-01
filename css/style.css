@@ -48,29 +48,9 @@ body {
     color: #333333;
     }    
 
-/* Introduction */
 
-.introduction {
-    background-image: url('../images/background.jpg');
-    background-position: 0 bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 620px;
-    color: #fff;
-    text-align: center;
-    overflow: auto;
-    }
+/* BUTTONS */
 
-.introduction h1 {
-    font-size: 3.125em;
-    font-weight: 300;
-    margin-top: 210px;    
-    }
-.introduction h3 {
-    font-size: 1.563em;
-    font-weight: 300;
-    margin-top: 20px;
-    }
 button {
     color: #fff;
     background-color: #f15a29;
@@ -85,4 +65,52 @@ button {
     margin: 0 auto;
     padding: 16px 20px;
     margin-top: 1.5em;
-    }    
+    }
+
+
+/* INTRODUCTION SECTION */
+
+.introduction {
+    background-image: url('../images/background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: #fff;
+    text-align: center;
+    overflow: auto;
+    }
+.introduction h1 {
+    font-size: 3.125em;
+    font-weight: 300;
+    margin-top: 210px;    
+    }
+.introduction h3 {
+    font-size: 1.563em;
+    font-weight: 300;
+    margin-top: 20px;
+    }
+
+/* CASES SECTION */
+
+.cases {
+    color: #000;
+    text-align: center;
+    overflow: auto;
+    }
+.cases h2 {
+    font-size: 2.8em;
+    font-weight: 300;
+    margin-top: 126px;    
+    margin-bottom: 40px;    
+    }        
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    }
+
+
