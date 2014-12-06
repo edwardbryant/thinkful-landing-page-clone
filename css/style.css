@@ -105,10 +105,15 @@ button {
     font-weight: 300;
     margin-top: 126px;    
     margin-bottom: 40px;    
-    }        
+    }
+.cases .device-group {
+    display: flex;
+    flex-wrap: wrap;
+    }    
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
+    height: 100%;
     }
 .devices h3 {
     font-size: 1.5em;
