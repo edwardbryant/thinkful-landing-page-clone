@@ -1,59 +1,76 @@
 
-body {
+html {
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif; 
     -webkit-font-smoothing: antialiased;    
     }
-
+body {
+    font-size: 10px; 
+    font-size: 1rem;
+    }    
 .content {
     width: 60%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
     }
 
 /* Navigation Section */
 
 .top-navigation {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #838994; 
-    letter-spacing: 0.03em;
+    letter-spacing: 0.05rem;
     position: fixed;
     width: 100%;
     z-index: 9999;
     }
-
 .top-navigation > .content {
     height: 70px;
     }
-
 .top-navigation .logo {
     margin-top: 14px;
     }
-
 .top-navigation .links {
     color: #838994;
     float: right;
-    margin-top: 1.6em;
+    margin-top: 2.6rem;
     }    
-
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 1.2em;
+    margin-left: 2.2rem;
     }        
-
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
     }
-
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
     }    
 
+/* INTRODUCTION SECTION */
 
-/* BUTTONS */
-
+.introduction {
+    background-image: url('../images/background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+    color: #fff;
+    text-align: center;
+    overflow: auto;
+    }
+.introduction h1 {
+    font-size: 5.2rem;
+    font-weight: 300;
+    margin-top: 21rem;    
+    }
+.introduction h3 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    }
 button {
     color: #fff;
     background-color: #f15a29;
@@ -63,35 +80,11 @@ button {
     border-radius: 4px;
     }
 .big-button {
-    width: 9em;
-    font-size: 1.125em;
+    width: 156px;
+    font-size: 1.8rem;
     margin: 0 auto;
     padding: 16px 20px;
-    margin-top: 1.5em;
-    }
-
-
-/* INTRODUCTION SECTION */
-
-.introduction {
-    background-image: url('../images/background.jpg');
-    background-position: 0 bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 620px;
-    color: #fff;
-    text-align: center;
-    overflow: auto;
-    }
-.introduction h1 {
-    font-size: 3.125em;
-    font-weight: 300;
-    margin-top: 210px;    
-    }
-.introduction h3 {
-    font-size: 1.563em;
-    font-weight: 300;
-    margin-top: 20px;
+    margin-top: 3rem;
     }
 
 /* CASES SECTION */
@@ -101,14 +94,14 @@ button {
     text-align: center;
     }
 .cases h2 {
-    font-size: 2.8em;
+    font-size: 4.2rem;
     font-weight: 300;
-    margin-top: 126px;    
-    margin-bottom: 40px;    
+    margin-top: 12rem;    
+    margin-bottom: 4rem;    
     }
 .cases .device-group {
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 2rem;
     }    
 .cases .devices {
     width: 33.3333333%;
@@ -116,9 +109,34 @@ button {
     height: 100%;
     }
 .devices h3 {
-    font-size: 1.5em;
+    font-size: 2.8rem;
     font-weight: 400;
-    margin-top: 0.4em;    
-    margin-bottom: 0.4em;    
+    margin-top: 2rem;    
+    margin-bottom: 0.5rem;    
     }
 
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #eaebec;
+    }
+footer hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #eaebec;  
+    }
+footer h4 {
+    color: #000;
+    }
+footer .icons {
+    height: 80px;
+    }    
+.icons li {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #eaebec;
+    display: inline-block;
+    border-radius: 50%;
+    }
