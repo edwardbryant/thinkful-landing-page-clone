@@ -136,6 +136,8 @@ footer h4 {
     }
 footer .icons {
     height: 80px;
+    margin: auto 0;
+
     }    
 .icons > li {
     font-size: 1.6rem;
@@ -144,6 +146,7 @@ footer .icons {
     border: 1px solid #eaebec;
     display: inline-block;
     border-radius: 50%;
+    vertical-align: middle;
     }
 .icons .icon-twitter {
     color: #55acee;
